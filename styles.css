@@ -14,7 +14,7 @@ body {
     position: absolute;
     width: 200%; /* Double the container width for seamless scrolling */
     height: 100%;
-    background-image: url('Beige\ Abstract\ Shapes\ Desktop\ Wallpaper_20241204_014052_0000.png');
+    background-image: url('homepage.png');
     background-repeat: repeat-x; /* Repeat the image horizontally */
     animation: scroll-left 10s linear infinite;
 }
