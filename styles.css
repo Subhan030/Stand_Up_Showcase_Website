@@ -2,6 +2,48 @@ body {
     margin: 0;
     overflow: hidden;
 }
+.header{
+    display: flex;
+    width:100%;
+    height: 7vh;
+    background-color: aqua;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+}
+#home{
+    display: flex;
+    width: 5vw;
+    height: 5vh;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+#shows{
+    display: flex;
+    width: 5vw;
+    height: 5vh;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+#explore{
+    display: flex;
+    width: 5vw;
+    height: 5vh;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+#theatres{
+    display: flex;
+    width: 5vw;
+    height: 5vh;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+}
 
 .scroll-container {
     position: relative;
@@ -12,12 +54,14 @@ body {
 
 .scroll-content {
     position: absolute;
-    width: 200%; /* Double the container width for seamless scrolling */
+    width: 222%; /* Double the container width for seamless scrolling */
     height: 100%;
-    background-image: url('homepage.png');
+    background-image: url('homepage.png'); /* Replace with your image URL */
     background-repeat: repeat-x; /* Repeat the image horizontally */
     animation: scroll-left 10s linear infinite;
+    filter: blur(5px)
 }
+
 @keyframes scroll-left {
     0% {
         transform: translateX(0);
